@@ -126,7 +126,7 @@ export function LoginForm({ onSubmit, isLoading = false }: LoginFormProps) {
                         name="remember"
                         checked={formData.remember}
                         onChange={(checked) => handleChange('remember', checked)}
-                    />
+                    >Lembrar-se da sessão</Toggle>
 
                     <Link 
                         href="/forgot-password" 

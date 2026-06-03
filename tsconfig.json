@@ -25,6 +25,9 @@
             "app/*": [
                 "./src/app/*"
             ],
+            "api/*": [
+                "./src/app/api/*"
+            ],
             "components/*": [
                 "./src/components/*"
             ],
@@ -42,6 +45,9 @@
             ],
             "types/*": [
                 "./src/types/*"
+            ],
+            "generated/*": [
+                "./generated/*"
             ]
         }
     },
